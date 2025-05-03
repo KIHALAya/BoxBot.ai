@@ -1,0 +1,9 @@
+2025-05-03 02:49:23,174 - scheduler - INFO - Scheduler set to run every 5 minutes
+2025-05-03 02:49:23,174 - scheduler - INFO - Running scheduled company update at 2025-05-03 02:49:23
+2025-05-03 02:49:23,175 - web_scraper - INFO - Starting company data update...
+2025-05-03 02:49:24,714 - web_scraper - ERROR - Failed to retrieve MyMovingReviews. Status code: 404
+2025-05-03 02:49:26,118 - web_scraper - ERROR - Failed to retrieve Moving.com. Status code: 404
+2025-05-03 02:49:26,121 - web_scraper - INFO - Saved 3 companies to ./data\moving_companies.json
+2025-05-03 02:49:26,122 - scheduler - INFO - Updated company list with 3 companies
+2025-05-03 02:49:26,125 - scheduler - INFO - Scheduler started
+2025-05-03 02:50:17,804 - scheduler - INFO - Scheduler stopped

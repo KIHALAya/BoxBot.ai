@@ -1,0 +1,1 @@
+{"pipeline1": {"name": "Sales Data ETL", "description": "Extract, transform, and load sales data from multiple sources", "dataset": "Sales transactions 2020-2025", "storage": {"type": "Data Warehouse", "name": "Snowflake", "api_key": "YOUR_API_KEY_HERE", "password": "YOUR_PASSWORD_HERE"}}}
