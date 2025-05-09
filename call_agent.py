@@ -1,6 +1,8 @@
 
 import streamlit as st
 import pandas as pd
+import json
+import os
 from datetime import datetime
 
 def call_agent_page():
@@ -17,9 +19,38 @@ def call_agent_page():
         st.markdown("### Campaign Settings")
         
         # Mock company data - in a real app this would come from a database
-        companies = ["TechNova Inc.", "Global Solutions LLC", "Summit Enterprises", 
-                    "Horizon Communications", "Pinnacle Systems", "Atlas Corporation",
-                    "Quantum Industries", "Nexus Group", "Synergy Partners"]
+        try: 
+            # Path to the JSON file
+            json_path = "data\moving_companies.json"
+            
+            if os.path.exists(json_path):
+                with open(json_path, "r") as file:
+                    companies_data = json.load(file)
+                    
+                # Extract company names from the JSON data
+                if isinstance(companies_data, list):
+                    # If JSON root is a list of companies
+                    companies = [company["name"] for company in companies_data if "name" in company]
+                elif isinstance(companies_data, dict) and "name" in companies_data:
+                    # If JSON contains a single company
+                    companies = [companies_data["name"]]
+                else:
+                    # Fallback if JSON structure is different
+                    companies = []
+                    st.error("Could not parse companies from JSON file. Please check the format.")
+            else:
+                companies = []
+                st.error(f"Companies data file not found: {json_path}")
+        except Exception as e:
+            companies = []
+            st.error(f"Error loading companies data: {str(e)}")
+            
+        # If no companies were loaded, provide a fallback list
+        if not companies:
+            companies = ["TechNova Inc.", "Global Solutions LLC", "Summit Enterprises", 
+                        "Horizon Communications", "Pinnacle Systems", "Atlas Corporation",
+                        "Quantum Industries", "Nexus Group", "Synergy Partners"]
+            st.warning("Using default company list. Please check your JSON file.")
         
         # Create a multiselect dropdown with "All" option separately
         col1, col2 = st.columns([3, 1])

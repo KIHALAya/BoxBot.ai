@@ -1,23 +1,162 @@
 [
   {
-    "name": "Two Men and a Truck",
-    "phone": "(800) 345-1070",
-    "website": "https://www.twomenandatruck.com",
-    "source": "angies_list",
-    "last_updated": "2025-05-03 02:49:26"
+    "name": "U-Pack",
+    "website": "https://www.upack.com/",
+    "description": "U-Pack offers affordable, long-distance moving services with flexible options like moving trailers and ReloCube containers. Ideal for DIY movers who want to avoid driving a rental truck.",
+    "phone": "844-362-5303",
+    "services": [
+      "Long-distance moving",
+      "Military moves",
+      "Cross-country relocation",
+      "Moving containers and trailers"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "8401 McClure Drive, Fort Smith, AR 72903",
+    "additional_phones": ["844-594-3077", "888-891-9314"],
+    "email": "reservations@upack.com"
+  },
+  {
+    "name": "Allied Van Lines",
+    "website": "https://www.allied.com/",
+    "description": "Allied Van Lines is a full-service moving company offering local, long-distance, and international moving services with a network of agents across the U.S.",
+    "phone": "800-470-2851",
+    "services": [
+      "Local and long-distance moving",
+      "Corporate relocation",
+      "International moving",
+      "Packing and storage services"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "Allied Van Lines, Inc., Fort Wayne, IN",
+    "additional_phones": ["800-689-8684", "866-841-7530"],
+    "email": "custsvc@alliedvan.com"
+  },
+  {
+    "name": "North American Van Lines",
+    "website": "https://www.northamerican.com/",
+    "description": "North American Van Lines provides comprehensive moving services, including local, long-distance, and international relocations, with a focus on personalized service.",
+    "phone": "800-369-9115",
+    "services": [
+      "Local and long-distance moving",
+      "International moving",
+      "Corporate relocation",
+      "Packing and storage services"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "North American Van Lines, Inc., Fort Wayne, IN",
+    "additional_phones": ["866-628-5778", "800-228-3092"],
+    "email": "info@northamerican.com"
+  },
+  {
+    "name": "PODS",
+    "website": "https://www.pods.com/",
+    "description": "PODS offers portable storage containers for moving and storage needs, providing flexible solutions for residential and commercial customers.",
+    "phone": "877-770-7637",
+    "services": [
+      "Portable storage containers",
+      "Local and long-distance moving",
+      "Business storage solutions",
+      "On-site and off-site storage"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "PODS Enterprises, LLC, Clearwater, FL",
+    "additional_phones": ["866-440-2621"],
+    "email": "customer.service@pods.com"
+  },
+  {
+    "name": "Mayflower",
+    "website": "https://www.mayflower.com/",
+    "description": "Mayflower is a trusted national moving company offering a full range of moving services, including local, long-distance, and international relocations.",
+    "phone": "877-720-4066",
+    "services": [
+      "Local and long-distance moving",
+      "International moving",
+      "Corporate relocation",
+      "Packing and storage services"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "Mayflower Transit, LLC, Fenton, MO",
+    "additional_phones": ["800-325-9970"],
+    "email": "customer.service@mayflower.com"
+  },
+  {
+    "name": "TWO MEN AND A TRUCK",
+    "website": "https://twomenandatruck.com/",
+    "description": "TWO MEN AND A TRUCK is a national, full-service moving company offering customers a comprehensive package of home and business relocation services.",
+    "phone": "800-345-1070",
+    "services": [
+      "Local and long-distance moving",
+      "Packing and unpacking services",
+      "Business moving",
+      "Storage solutions"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "3400 Belle Chase Way, Lansing, MI 48911",
+    "additional_phones": ["877-720-0411"],
+    "email": "info@twomenandatruck.com"
   },
   {
     "name": "United Van Lines",
-    "phone": "(800) 948-4885",
-    "website": "https://www.unitedvanlines.com",
-    "source": "angies_list",
-    "last_updated": "2025-05-03 02:49:26"
+    "website": "https://www.unitedvanlines.com/",
+    "description": "United Van Lines offers comprehensive moving services, including local, long-distance, and international relocations, with a focus on customer satisfaction.",
+    "phone": "800-282-4133",
+    "services": [
+      "Local and long-distance moving",
+      "International moving",
+      "Corporate relocation",
+      "Packing and storage services"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "United Van Lines, LLC, Fenton, MO",
+    "additional_phones": ["877-740-3040"],
+    "email": "customer.service@unitedvanlines.com"
+  },
+  {
+    "name": "U-Haul Moving Help",
+    "website": "https://www.uhaul.com/MovingHelp/",
+    "description": "U-Haul Moving Help connects customers with local labor providers to assist with loading, unloading, packing, and unpacking services.",
+    "phone": "800-528-7134",
+    "services": [
+      "Loading and unloading assistance",
+      "Packing and unpacking services",
+      "Moving labor services",
+      "Self-service moving options"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "U-Haul International, Inc., Phoenix, AZ",
+    "additional_phones": ["800-223-6218"],
+    "email": "support@movinghelp.com"
   },
   {
     "name": "Atlas Van Lines",
-    "phone": "(800) 638-9797",
-    "website": "https://www.atlasvanlines.com",
-    "source": "angies_list",
-    "last_updated": "2025-05-03 02:49:26"
+    "website": "https://www.atlasvanlines.com/",
+    "description": "Atlas Van Lines provides full-service moving solutions for individuals and businesses, specializing in long-distance and international relocations.",
+    "phone": "800-638-9797",
+    "services": [
+      "Local and long-distance moving",
+      "International moving",
+      "Corporate relocation",
+      "Packing and storage services"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "1212 Saint George Road, Evansville, IN 47711-2364",
+    "additional_phones": [],
+    "email": "customer.service@atlasvanlines.com"
+  },
+  {
+    "name": "Bekins Van Lines",
+    "website": "https://www.bekins.com/",
+    "description": "Bekins Van Lines offers residential and commercial moving services, specializing in long-distance relocations with a network of agents nationwide.",
+    "phone": "800-456-8092",
+    "services": [
+      "Residential and commercial moving",
+      "Long-distance moving",
+      "Packing and unpacking services",
+      "Storage solutions"
+    ],
+    "last_updated": "2025-05-03",
+    "address": "8010 Castleton Rd, Indianapolis, IN 46250",
+    "additional_phones": ["800-723-5467", "866-814-2706"],
+    "email": "bekinscustomercare@wvlcorp.com"
   }
 ]
